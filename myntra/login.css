@@ -63,7 +63,7 @@ body{
     box-align:center;
     background-color: white;
 }
-/*assign full width inputs*/
+
   
 input[type=text],
 input[type=password] {
@@ -75,7 +75,7 @@ input[type=password] {
     box-sizing: border-box;
     align-items: center;
 }
-/*set a style for the buttons*/
+
   
 button {
     background-color: #f53e8a;
@@ -87,12 +87,12 @@ button {
     width: 30%;
     -webkit-box-align: center;
 }
-/* set a hover effect for the button*/
+
   
 button:hover {
     opacity: 0.8;
 }
-/*set extra style for the cancel button*/
+
   
 .cancelbtn {
     width: 20%;
@@ -101,22 +101,19 @@ button:hover {
     text-align: center;
     padding-right: 50px;
 }
-/*centre the display image inside the container*/
-  
 
-/*set padding to the container*/
   
 .container {
     padding: 16px;
     text-align: center;
 }
-/*set the forgot password text*/
+
   
 span.psw {
     float: right;
     padding-top: 16px;
 }
-/*set styles for span and cancel button on small screens*/
+
   
 @media screen and (max-width: 300px) {
     span.psw {
